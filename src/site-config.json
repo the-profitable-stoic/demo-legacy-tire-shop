@@ -1,0 +1,612 @@
+{
+  "business": {
+    "name": "Legacy Tire Shop",
+    "phone": "555-tir-r94",
+    "category": "tire-shop",
+    "city": "Louisville",
+    "state": "KY"
+  },
+  "design": {
+    "preset": {
+      "id": "tire-shop-heritage-craft",
+      "categoryGroup": "tire-shop",
+      "name": "Heritage Craft",
+      "recipeFile": "tire-shop/heritage-craft.astro",
+      "colors": {
+        "primary": "#5A5A5A",
+        "primaryDark": "#363636",
+        "primaryLight": "#c5c5c5",
+        "secondary": "#4d4d4d",
+        "accent": "#5A5A5A",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#4d4d4d",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "tire-shop/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Louisville's Trusted Tire Experts",
+      "heroSubline": "Honest tire services for all makes and models. Serving Louisville drivers since 2011 with fair pricing and reliable work.",
+      "aboutTitle": "Why Choose Legacy Tire Shop",
+      "aboutText": [
+        "Founded in 2011, Legacy Tire Shop started as a small family operation in the Highlands neighborhood. Our founder, a third-generation mechanic, saw a need for transparent tire services in Louisville.",
+        "We believe in clear communication and only recommending what your vehicle truly needs. No upsells, just honest assessments from ASE-certified technicians.",
+        "As a locally owned business, we support little league teams, bourbon festival shuttles, and community safety initiatives. Your tires keep Louisville moving."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Knowledge",
+          "description": "We understand how Louisville's seasonal weather and road conditions affect tire wear."
+        },
+        {
+          "title": "Fair Pricing",
+          "description": "Upfront quotes with no hidden fees—we respect your budget."
+        },
+        {
+          "title": "Same-Day Service",
+          "description": "Most repairs completed within 2 hours to minimize your downtime."
+        },
+        {
+          "title": "Warranty Honored",
+          "description": "We work with all major tire warranties to protect your investment."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Tire Service Today",
+      "ctaSubline": "Call 555-TIR-R94 or book online for prompt service from Louisville's most trusted tire specialists."
+    },
+    "services": [
+      {
+        "slug": "tire-repair",
+        "name": "Tire Repair",
+        "shortDescription": "Fast, reliable fixes for punctures and leaks to keep you rolling safely.",
+        "description": "Louisville's unpredictable roads—from pothole-riddled downtown streets to gravel backroads near distilleries—can lead to unexpected tire damage. Our certified technicians assess each puncture with care, determining whether a plug, patch, or replacement is needed.\n\nWe use industry-leading rubber cement and vulcanizing processes for lasting repairs that stand up to Kentucky's temperature swings. Most repairs take under 45 minutes, and we'll check your tire pressure sensors at no extra charge. For nails in the sidewall or large gashes, we'll give you straight advice about replacement options.",
+        "process": [
+          "Step 1: Inspect tire for puncture location and size",
+          "Step 2: Remove object and prepare damaged area",
+          "Step 3: Apply rubber cement and install plug/patch",
+          "Step 4: Pressure test and balance tire"
+        ],
+        "benefits": [
+          "Saves money vs. premature replacement",
+          "Restores original tire integrity",
+          "Prevents slow leaks from worsening",
+          "Includes free pressure check"
+        ],
+        "faq": [
+          {
+            "question": "Can all punctures be repaired?",
+            "answer": "No. We follow industry guidelines—damage within the tread's central 3/4 can usually be fixed, but sidewall punctures require replacement."
+          },
+          {
+            "question": "How long does a repair last?",
+            "answer": "Properly installed patches typically last the remaining life of the tire. We warranty all repairs for 1 year."
+          },
+          {
+            "question": "Do you repair run-flat tires?",
+            "answer": "Yes, but only if the puncture meets manufacturer specifications. We'll check your tire's specific guidelines."
+          }
+        ]
+      },
+      {
+        "slug": "seasonal-tire-changeovers",
+        "name": "Seasonal Tire Changeovers",
+        "shortDescription": "Professional switching between all-season and winter tires for Louisville's variable climate.",
+        "description": "Kentucky's winter ice storms and summer heat waves demand different tire strategies. We make seasonal transitions efficient with careful mounting, balancing, and storage solutions.\n\nFor Highlands residents tackling Cherokee Park's hills or commuters crossing the Sherman Minton Bridge, proper winter traction matters. We torque lug nuts to exact specs and inspect brake components during each changeover. Summer storage includes climate-controlled protection to prevent dry rot in our humid river valley environment. Ask about our discounted storage packages when you schedule both seasonal appointments.",
+        "process": [
+          "Step 1: Remove current tires and inspect wheels",
+          "Step 2: Mount seasonal tires with new valve stems",
+          "Step 3: Computer-balance all wheels",
+          "Step 4: Store off-season tires (optional)"
+        ],
+        "benefits": [
+          "Extends tire life by 20-30%",
+          "Improves safety in winter conditions",
+          "Prevents wheel damage during swaps",
+          "Includes free brake inspection"
+        ],
+        "faq": [
+          {
+            "question": "When should I switch to winter tires?",
+            "answer": "We recommend mid-November for Louisville, before the first frost. Monitor forecasts for earlier changes if needed."
+          },
+          {
+            "question": "Can I reuse the same TPMS sensors?",
+            "answer": "In most cases yes—we'll test them during installation. Some luxury models require dedicated winter sensors."
+          },
+          {
+            "question": "Do you offer mobile changeovers?",
+            "answer": "Yes, for an additional fee we can service fleet vehicles or multiple family cars at your home."
+          }
+        ]
+      },
+      {
+        "slug": "tire-balancing",
+        "name": "Precision Tire Balancing",
+        "shortDescription": "Smoother rides through Louisville's diverse terrain with perfectly balanced wheels.",
+        "description": "Unbalanced tires cause premature wear and vibration—especially noticeable on Bardstown Road's brick sections or during highway speeds on I-65. Our Hunter Road Force balancer identifies even slight imbalances that cheaper machines miss.\n\nWe add precisely measured weights to counteract heavy spots, checking both static and dynamic balance. This service is crucial after hitting one of Louisville's notorious potholes or curbs. For performance vehicles heading to NCM Motorsports Park, we offer race-spec balancing with adhesive weights that withstand high G-forces. Most passenger vehicles take under 30 minutes per axle.",
+        "process": [
+          "Step 1: Mount tire on balancer and spin to identify imbalance",
+          "Step 2: Determine optimal weight placement",
+          "Step 3: Apply corrosion-resistant weights",
+          "Step 4: Verify smooth rotation at highway speeds"
+        ],
+        "benefits": [
+          "Eliminates steering wheel vibration",
+          "Prevents uneven tread wear patterns",
+          "Reduces stress on suspension components",
+          "Includes visual brake inspection"
+        ],
+        "faq": [
+          {
+            "question": "How often should tires be balanced?",
+            "answer": "Every 5,000-6,000 miles, or immediately if you notice vibration above 45 mph."
+          },
+          {
+            "question": "Can balancing fix alignment issues?",
+            "answer": "No, but we'll alert you if we spot alignment problems during the service."
+          },
+          {
+            "question": "Do you balance oversized truck tires?",
+            "answer": "Yes, our equipment handles everything from Smart Cars to 3/4-ton pickups."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-fleet-services",
+        "name": "Commercial Fleet Services",
+        "shortDescription": "Scheduled maintenance for Louisville businesses to keep deliveries on time.",
+        "description": "From NuLu's restaurant suppliers to distillery tour vans, reliable tires keep Louisville commerce moving. Our fleet program offers after-hours servicing with detailed digital reports for each vehicle.\n\nWe coordinate with dispatchers to minimize downtime, often servicing multiple vehicles simultaneously at your location. Our team is DOT-certified for commercial inspections and understands Kentucky's weight regulations for delivery vehicles. Services include emergency roadside repair callouts—critical when a fleet truck blows a tire on Watterson Expressway during rush hour. Volume discounts available for contracts covering 10+ vehicles.",
+        "process": [
+          "Step 1: Schedule convenient service window",
+          "Step 2: Comprehensive tread depth and pressure check",
+          "Step 3: Rotate or replace as needed",
+          "Step 4: Provide digital service records"
+        ],
+        "benefits": [
+          "Reduces unexpected breakdowns",
+          "Simplifies maintenance tracking",
+          "Complies with DOT standards",
+          "24/7 emergency response"
+        ],
+        "faq": [
+          {
+            "question": "Do you service box trucks?",
+            "answer": "Yes, up to 26-foot trucks with proper bay clearance. Call ahead for larger vehicles."
+          },
+          {
+            "question": "Can you match our existing tire brand?",
+            "answer": "We maintain relationships with all major suppliers to ensure consistency across your fleet."
+          },
+          {
+            "question": "How quickly can you respond to flat tires?",
+            "answer": "Average 90-minute daytime response within Jefferson County for enrolled fleets."
+          }
+        ]
+      },
+      {
+        "slug": "tpms-service",
+        "name": "TPMS Service & Repair",
+        "shortDescription": "Expert diagnosis and repair of tire pressure monitoring systems.",
+        "description": "Louisville's temperature swings—from 90°F summer days to sudden winter cold fronts—constantly affect tire pressure readings. Faulty TPMS sensors trigger annoying dashboard lights and compromise safety.\n\nWe use OEM-grade scan tools to diagnose issues whether you drive a Corvette from the Bowling Green plant or a hybrid commuting through St. Matthews. Services include sensor replacements (with your choice of OEM or aftermarket parts), system resets, and custom programming for lifted trucks with oversized tires. Many shops overlook corroded valve stems during sensor service—we replace them as standard practice to prevent slow leaks.",
+        "process": [
+          "Step 1: Scan system to identify faulty sensors",
+          "Step 2: Remove tire and extract sensor",
+          "Step 3: Install new sensor with fresh seals",
+          "Step 4: Relearn system to vehicle ECU"
+        ],
+        "benefits": [
+          "Restores accurate pressure readings",
+          "Eliminates dashboard warning lights",
+          "Prevents sensor damage during tire service",
+          "Uses long-life lithium batteries"
+        ],
+        "faq": [
+          {
+            "question": "How long do TPMS sensors last?",
+            "answer": "Typically 5-7 years. Cold winters drain batteries faster—we see more failures in January."
+          },
+          {
+            "question": "Can I disable my TPMS system?",
+            "answer": "No, it's federally mandated. We can install compliant aftermarket sensors if OEM parts are too expensive."
+          },
+          {
+            "question": "Why does my light come on after tire rotation?",
+            "answer": "The system needs resetting to recognize new positions. We include this free with any rotation service."
+          }
+        ]
+      },
+      {
+        "slug": "custom-wheels",
+        "name": "Custom Wheel Installation",
+        "shortDescription": "Professional mounting and fitment guidance for aftermarket wheels.",
+        "description": "Louisville car enthusiasts deserve proper wheel installations whether they're upgrading a Mustang for Cruisin' Louisville or fitting winter wheels on a German import. Our technicians measure backspacing and offset precisely to avoid rubbing on suspension components.\n\nWe use nylon pry bars instead of metal tools to protect expensive rims during mounting. For lowered vehicles in the local car scene, we offer stretched tire installations with careful attention to bead seating. All installations include road force balancing and a 10-mile test drive through different road surfaces—from Old Louisville's cobblestones to smooth Gene Snyder Freeway stretches—to verify no vibrations.",
+        "process": [
+          "Step 1: Verify wheel/tire compatibility with your vehicle",
+          "Step 2: Mount tires using rim-protecting equipment",
+          "Step 3: Install with correct hub-centric rings",
+          "Step 4: Test drive and adjust torque specs"
+        ],
+        "benefits": [
+          "Prevents costly wheel damage",
+          "Ensures proper clearance at full lock",
+          "Maintains accurate speedometer readings",
+          "Includes 30-day adjustment period"
+        ],
+        "faq": [
+          {
+            "question": "Can you install wheels I bought online?",
+            "answer": "Yes, but we'll inspect them first for defects some internet sellers overlook."
+          },
+          {
+            "question": "Do you offer ceramic coating for wheels?",
+            "answer": "Yes—highly recommended for Louisville's brake dust and winter road salt protection."
+          },
+          {
+            "question": "What's your policy on aftermarket lug nuts?",
+            "answer": "We only install quality brands that won't swell or strip like cheap sets often do."
+          }
+        ]
+      },
+      {
+        "slug": "pre-purchase-inspections",
+        "name": "Used Tire Inspections",
+        "shortDescription": "Thorough evaluations before buying used tires to avoid hidden problems.",
+        "description": "With many Louisville residents shopping for affordable used tires at local wholesalers or online marketplaces, our inspections help avoid dangerous purchases. We go beyond basic tread measurements to assess internal condition.\n\nUsing depth gauges and borescopes, we check for previous repairs, belt separation, and dry rot—common issues with Kentucky's humidity swings. We'll advise if a tire's remaining life justifies its price, especially important for families budgeting in neighborhoods like Shively or Okolona. Inspections take about 15 minutes per tire and include written documentation you can use to negotiate with sellers. Some area dealers even honor our estimates for trade-in credit.",
+        "process": [
+          "Step 1: Measure tread depth at multiple points",
+          "Step 2: Inspect sidewalls for cracks or bulges",
+          "Step 3: Check for uneven wear patterns",
+          "Step 4: Provide detailed condition report"
+        ],
+        "benefits": [
+          "Reveals hidden damage",
+          "Identifies mismatched tread patterns",
+          "Prevents premature failure",
+          "Includes DOT age decoding"
+        ],
+        "faq": [
+          {
+            "question": "Can you tell if a tire was previously repaired?",
+            "answer": "Yes—we check for internal patches and plugs that might compromise safety."
+          },
+          {
+            "question": "How old is too old for used tires?",
+            "answer": "We recommend against any tires over 6 years old, regardless of tread depth."
+          },
+          {
+            "question": "Do you inspect take-off tires from new cars?",
+            "answer": "Absolutely—these often have minimal wear but may have been stored improperly at dealerships."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Louisville",
+        "slug": "louisville-ky",
+        "state": "KY",
+        "content": "Legacy Tire Shop proudly serves Louisville, KY, with top-quality tires and expert automotive services. Whether you need new tires, rotations, or alignments, our team is here to keep your vehicle running smoothly on Louisville's busy streets. We offer a wide selection of brands to match your driving needs, from all-season to performance tires. Trust Legacy Tire Shop for reliable service and competitive pricing in the heart of Kentucky.",
+        "localContext": "Louisville is Kentucky's largest city, known for its vibrant culture, the Kentucky Derby, and bustling urban roads.",
+        "nearbyAreas": [
+          "Jeffersonville, IN",
+          "New Albany, IN",
+          "Clarksville, IN"
+        ]
+      },
+      {
+        "city": "Jeffersontown",
+        "slug": "jeffersontown-ky",
+        "state": "KY",
+        "content": "Legacy Tire Shop is your trusted tire provider in Jeffersontown, KY. Our experienced technicians help drivers navigate the city's mix of suburban and rural roads with the right tires for every season. From routine maintenance to emergency repairs, we ensure your vehicle stays safe and reliable. Visit us for personalized service and unbeatable tire deals in Jeffersontown.",
+        "localContext": "Jeffersontown is a growing suburb of Louisville with a strong community feel and convenient access to major highways.",
+        "nearbyAreas": [
+          "Louisville, KY",
+          "Lyndon, KY",
+          "Middletown, KY"
+        ]
+      },
+      {
+        "city": "Clarksville",
+        "slug": "clarksville-ky",
+        "state": "KY",
+        "content": "Just across the Ohio River, Legacy Tire Shop serves Clarksville, IN, with premium tires and expert auto care. Our team understands the wear and tear of daily commutes to Louisville and beyond, so we provide durable tires for every budget. Stop by for quick rotations, balancing, or a full tire replacement—we’re here to keep you rolling safely.",
+        "localContext": "Clarksville is a bustling Indiana town with easy access to Louisville via I-65 and frequent commuter traffic.",
+        "nearbyAreas": [
+          "Jeffersonville, IN",
+          "New Albany, IN",
+          "Louisville, KY"
+        ]
+      },
+      {
+        "city": "New Albany",
+        "slug": "new-albany-ky",
+        "state": "KY",
+        "content": "Legacy Tire Shop extends its services to New Albany, IN, offering high-quality tires and professional automotive care. Whether you're driving through downtown New Albany or hitting the highways, we’ve got the perfect tires for your vehicle. Our friendly staff provides honest advice and fast service to keep you on the road with confidence.",
+        "localContext": "New Albany is a historic Indiana city with charming neighborhoods and proximity to Louisville's attractions.",
+        "nearbyAreas": [
+          "Jeffersonville, IN",
+          "Clarksville, IN",
+          "Louisville, KY"
+        ]
+      },
+      {
+        "city": "Middletown",
+        "slug": "middletown-ky",
+        "state": "KY",
+        "content": "Legacy Tire Shop is Middletown’s go-to destination for tire sales and services. We help local drivers find the ideal tires for Middletown’s quiet streets and nearby highway commutes. With a focus on customer satisfaction, we offer quick turnarounds on alignments, patches, and full tire sets. Drive with peace of mind knowing Legacy Tire Shop has your back.",
+        "localContext": "Middletown is a peaceful Louisville suburb with tree-lined streets and family-friendly neighborhoods.",
+        "nearbyAreas": [
+          "Jeffersontown, KY",
+          "Lyndon, KY",
+          "Louisville, KY"
+        ]
+      },
+      {
+        "city": "Lyndon",
+        "slug": "lyndon-ky",
+        "state": "KY",
+        "content": "Serving Lyndon, KY, Legacy Tire Shop provides dependable tire solutions for local drivers. Whether you need winter tires for Kentucky’s unpredictable weather or high-performance tires for daily driving, we have you covered. Our team prides itself on honest assessments and efficient service to keep Lyndon’s vehicles in top shape.",
+        "localContext": "Lyndon is a small, residential community near Louisville with easy access to shopping and major roadways.",
+        "nearbyAreas": [
+          "Middletown, KY",
+          "Jeffersontown, KY",
+          "Louisville, KY"
+        ]
+      },
+      {
+        "city": "Shepherdsville",
+        "slug": "shepherdsville-ky",
+        "state": "KY",
+        "content": "Legacy Tire Shop is proud to serve Shepherdsville, KY, with reliable tires and automotive services. From rugged tires for trucks to fuel-efficient options for commuters, we stock a variety to meet Shepherdsville’s diverse needs. Our skilled technicians ensure proper installation and maintenance, so you can tackle I-65 and local roads with confidence.",
+        "localContext": "Shepherdsville is a growing city south of Louisville, known for its outlet shopping and industrial activity.",
+        "nearbyAreas": [
+          "Mount Washington, KY",
+          "Hillview, KY",
+          "Louisville, KY"
+        ]
+      },
+      {
+        "city": "Mount Washington",
+        "slug": "mount-washington-ky",
+        "state": "KY",
+        "content": "Legacy Tire Shop helps Mount Washington, KY, drivers stay safe with quality tires and expert auto care. Whether navigating Bullitt County’s scenic routes or commuting to Louisville, we provide the right tires for your journey. Our team offers fast, friendly service, including rotations, repairs, and replacements—all at competitive prices.",
+        "localContext": "Mount Washington is a small but rapidly expanding town with a mix of rural and suburban landscapes.",
+        "nearbyAreas": [
+          "Shepherdsville, KY",
+          "Hillview, KY",
+          "Louisville, KY"
+        ]
+      },
+      {
+        "city": "Prospect",
+        "slug": "prospect-ky",
+        "state": "KY",
+        "content": "Legacy Tire Shop delivers premium tire services to Prospect, KY, ensuring luxury and performance vehicles receive the best care. We stock high-end tire brands to match Prospect’s upscale driving needs, from SUVs to sports cars. Trust our specialists for precise installations and maintenance tailored to your vehicle’s requirements.",
+        "localContext": "Prospect is an affluent Louisville suburb with winding roads and high-end residential areas.",
+        "nearbyAreas": [
+          "Anchorage, KY",
+          "Glenview, KY",
+          "Louisville, KY"
+        ]
+      },
+      {
+        "city": "Anchorage",
+        "slug": "anchorage-ky",
+        "state": "KY",
+        "content": "Legacy Tire Shop serves Anchorage, KY, with top-tier tires and personalized automotive services. Our team understands the unique needs of Anchorage’s drivers, offering everything from all-terrain tires to eco-friendly options. Whether you’re cruising through town or heading to Louisville, we ensure your tires are in perfect condition.",
+        "localContext": "Anchorage is a quaint, upscale community with historic charm and quiet streets.",
+        "nearbyAreas": [
+          "Prospect, KY",
+          "Glenview, KY",
+          "Louisville, KY"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Tire Repair",
+        "text": "Had a nail in my F-150's tire right before a trip to Mammoth Cave. Legacy got me in same-day—fixed it properly with a patch/plug combo instead of just pushing a plug in like other shops. Two years later, that repair is still holding strong.",
+        "date": "2025-03-14"
+      },
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "Seasonal Tire Changeovers",
+        "text": "As a nurse commuting to Norton Hospital in all weather, I trust Legacy with my winter/summer swaps. They store my off-season tires and always remind me when it's time to switch. Last December they spotted a worn ball joint during the changeover—probably saved me from a bigger repair.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Devon M.",
+        "rating": 5,
+        "service": "Custom Wheel Installation",
+        "text": "These guys know their fitments. I brought in some niche JDM wheels for my Civic, and they took time to measure everything perfectly. No rubbing even when my car is fully loaded with audio equipment for car meets at Waterfront Park.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Sharon K.",
+        "rating": 4,
+        "service": "TPMS Service",
+        "text": "After three shops couldn't figure out why my RAV4's TPMS light kept coming on, Legacy diagnosed a corroded sensor connector in 10 minutes. Only reason I'm not giving 5 stars is because they didn't have the Toyota-specific part in stock that day.",
+        "date": "2024-09-17"
+      },
+      {
+        "name": "James P.",
+        "rating": 5,
+        "service": "Commercial Fleet Services",
+        "text": "Our bakery's sprinter vans get hammered on Louisville streets. Legacy's fleet program keeps them rolling with scheduled rotations and after-hours service. Their mobile repair truck even fixed a blowout at 7 AM during Derby week—lifesavers.",
+        "date": "2024-08-29"
+      },
+      {
+        "name": "Tiffany L.",
+        "rating": 5,
+        "service": "Pre-Purchase Inspection",
+        "text": "Saved me from buying a set of 'like new' tires on Facebook Marketplace that had internal belt separation. The $20 inspection fee was worth avoiding what could've been a dangerous situation on I-65. Will always check here first now.",
+        "date": "2024-07-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Louisville Tire Repair & Replacement Services",
+        "description": "Trusted local tire shop serving Louisville since 2011. Honest assessments, same-day repairs, and seasonal changeovers for all vehicles."
+      },
+      "about": {
+        "title": "About Our Louisville Tire Shop",
+        "description": "Learn why Louisville drivers trust Legacy Tire Shop for honest service, fair pricing, and expert tire care since 2011."
+      },
+      "services": {
+        "title": "Tire Services in Louisville, KY",
+        "description": "Comprehensive tire repairs, balancing, TPMS service, and commercial fleet programs for Louisville area drivers."
+      },
+      "contact": {
+        "title": "Contact Legacy Tire Shop in Louisville",
+        "description": "Schedule tire service in Louisville, KY. Call 555-TIR-R94 for immediate assistance or book online 24/7."
+      },
+      "reviews": {
+        "title": "Louisville Tire Shop Customer Reviews",
+        "description": "Read verified reviews from Louisville residents about their experiences with Legacy Tire Shop's services."
+      },
+      "service-areas": {
+        "title": "Tire Shop Serving Louisville & Nearby",
+        "description": "Proudly providing tire services to Louisville, St. Matthews, Jeffersontown, and surrounding Kentucky communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "tire-repair": "/images/service-tire-repair.webp",
+      "seasonal-tire-changeovers": "/images/service-seasonal-tire-changeovers.webp",
+      "commercial-fleet-services": "/images/service-commercial-fleet-services.webp",
+      "tpms-service": "/images/service-tpms-service.webp",
+      "custom-wheels": "/images/service-custom-wheels.webp",
+      "tire-balancing": "/images/service-tire-balancing.webp",
+      "pre-purchase-inspections": "/images/service-pre-purchase-inspections.webp"
+    },
+    "servicesResponsive": {
+      "tire-repair": {
+        "src": "/images/service-tire-repair.webp",
+        "srcset": "/images/service-tire-repair-400w.webp 400w, /images/service-tire-repair-800w.webp 800w, /images/service-tire-repair-1200w.webp 1200w, /images/service-tire-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "seasonal-tire-changeovers": {
+        "src": "/images/service-seasonal-tire-changeovers.webp",
+        "srcset": "/images/service-seasonal-tire-changeovers-400w.webp 400w, /images/service-seasonal-tire-changeovers-800w.webp 800w, /images/service-seasonal-tire-changeovers-1200w.webp 1200w, /images/service-seasonal-tire-changeovers.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-fleet-services": {
+        "src": "/images/service-commercial-fleet-services.webp",
+        "srcset": "/images/service-commercial-fleet-services-400w.webp 400w, /images/service-commercial-fleet-services-800w.webp 800w, /images/service-commercial-fleet-services-1200w.webp 1200w, /images/service-commercial-fleet-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tpms-service": {
+        "src": "/images/service-tpms-service.webp",
+        "srcset": "/images/service-tpms-service-400w.webp 400w, /images/service-tpms-service-800w.webp 800w, /images/service-tpms-service-1200w.webp 1200w, /images/service-tpms-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "custom-wheels": {
+        "src": "/images/service-custom-wheels.webp",
+        "srcset": "/images/service-custom-wheels-400w.webp 400w, /images/service-custom-wheels-800w.webp 800w, /images/service-custom-wheels-1200w.webp 1200w, /images/service-custom-wheels.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tire-balancing": {
+        "src": "/images/service-tire-balancing.webp",
+        "srcset": "/images/service-tire-balancing-400w.webp 400w, /images/service-tire-balancing-800w.webp 800w, /images/service-tire-balancing-1200w.webp 1200w, /images/service-tire-balancing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pre-purchase-inspections": {
+        "src": "/images/service-pre-purchase-inspections.webp",
+        "srcset": "/images/service-pre-purchase-inspections-400w.webp 400w, /images/service-pre-purchase-inspections-800w.webp 800w, /images/service-pre-purchase-inspections-1200w.webp 1200w, /images/service-pre-purchase-inspections.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
